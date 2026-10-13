@@ -1,0 +1,26 @@
+# Model Weights & Large Checkpoints (exceeds GitHub 100MB limit)
+*.pt
+*.bin
+*.pth
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Virtual Environment & Build
+node_modules/
+build/
+dist/
+env/
+venv/
+.venv/
+
+# Large Dataset Caches
+data/*.json
+
+# System / IDE generated files
+.system_generated/
+.vscode/
+.idea/

@@ -1,0 +1,26 @@
+{
+  "checkpoint": "checkpoints/best_model.pt",
+  "best_epoch": 20,
+  "val_loss": 1.8005,
+  "val_ppl": 6.05,
+  "metrics": {
+    "exact_match_accuracy": "16.00%",
+    "sql_syntax_validity": "68.00%",
+    "average_token_overlap_bleu": "77.45%"
+  },
+  "context_limits": {
+    "theoretical_positional_limit": 512,
+    "encoder_max_src_len": 256,
+    "decoder_max_tgt_len": 192,
+    "inference_max_len": 150
+  },
+  "hyperparameters": {
+    "d_model": 256,
+    "num_heads": 4,
+    "layers": 10,
+    "d_ff": 512,
+    "dropout": 0.2,
+    "src_vocab_size": 12000,
+    "tgt_vocab_size": 12000
+  }
+}
